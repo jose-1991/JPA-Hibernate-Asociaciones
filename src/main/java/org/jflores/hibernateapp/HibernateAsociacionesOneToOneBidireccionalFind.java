@@ -2,21 +2,21 @@ package org.jflores.hibernateapp;
 
 import jakarta.persistence.EntityManager;
 import org.jflores.hibernateapp.entity.Cliente;
+import org.jflores.hibernateapp.entity.ClienteDetalle;
 import org.jflores.hibernateapp.util.JpaUtil;
 
-import java.util.Scanner;
-
-public class HibernateEliminar {
+public class HibernateAsociacionesOneToOneBidireccionalFind {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Ingrese el id del cliente a eliminar");
-        Long id = s.nextLong();
         EntityManager em = JpaUtil.getEntityManager();
         try {
-            Cliente c = em.find(Cliente.class, id);
             em.getTransaction().begin();
-            em.remove(c);
+            Cliente cliente = em.find(Cliente.class, 2L);
+
+            ClienteDetalle detalle = new ClienteDetalle(true, 8000L);
+            cliente.addDetalle(detalle);
+
             em.getTransaction().commit();
+            System.out.println(cliente);
         }catch (Exception e){
             em.getTransaction().rollback();
             e.printStackTrace();

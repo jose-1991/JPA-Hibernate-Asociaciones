@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e26bab52-cd68-4476-9cbd-4a935b98172d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernateCrear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernateCrudService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernateEditar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernateEliminar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernateListar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernatePorId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernateQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernateResultListWhere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/HibernateSingleResultWhere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/dominio/ClienteDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/repositories/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/repositories/CrudRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/services/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jflores/hibernateapp/services/ClienteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TRMs3lkukD5JWQZnhzcfdyFXK6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/JoSe/Documents/Workspace/hibernate-jpa-asociaciones-app/src/main/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JoSe\Documents\Workspace\hibernate-jpa-asociaciones-app\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jflores.hibernateapp" />
+      <recent name="org.jflores.hibernateapp.util" />
+      <recent name="org.jflores.hibernateapp.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HibernateAsociacionesManyToManyFindBidireccional">
+    <configuration name="HibernateAsociacionesManyToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jflores.hibernateapp.HibernateAsociacionesManyToMany" />
+      <module name="hibernate-jpa-asociaciones-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jflores.hibernateapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateAsociacionesManyToManyBidireccional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jflores.hibernateapp.HibernateAsociacionesManyToManyBidireccional" />
+      <module name="hibernate-jpa-asociaciones-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jflores.hibernateapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateAsociacionesManyToManyFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jflores.hibernateapp.HibernateAsociacionesManyToManyFind" />
+      <module name="hibernate-jpa-asociaciones-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jflores.hibernateapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateAsociacionesManyToManyFindBidireccional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jflores.hibernateapp.HibernateAsociacionesManyToManyFindBidireccional" />
+      <module name="hibernate-jpa-asociaciones-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jflores.hibernateapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateAsociacionesOneToOneBidireccionalFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jflores.hibernateapp.HibernateAsociacionesOneToOneBidireccionalFind" />
+      <module name="hibernate-jpa-asociaciones-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jflores.hibernateapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HibernateAsociacionesManyToManyFindBidireccional" />
+        <item itemvalue="Application.HibernateAsociacionesManyToManyBidireccional" />
+        <item itemvalue="Application.HibernateAsociacionesManyToMany" />
+        <item itemvalue="Application.HibernateAsociacionesManyToManyFind" />
+        <item itemvalue="Application.HibernateAsociacionesOneToOneBidireccionalFind" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e26bab52-cd68-4476-9cbd-4a935b98172d" name="Changes" comment="" />
+      <created>1691001647309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691001647309</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -3,14 +3,20 @@
     <persistence-unit name="ejemploJPA" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>org.jflores.hibernateapp.entity.Cliente</class>
+        <class>org.jflores.hibernateapp.entity.Factura</class>
+        <class>org.jflores.hibernateapp.entity.Direccion</class>
+        <class>org.jflores.hibernateapp.entity.ClienteDetalle</class>
+        <class>org.jflores.hibernateapp.entity.Curso</class>
+        <class>org.jflores.hibernateapp.entity.Alumno</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/java_curso?timezone=UTC-04:00"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/java_hibernate_curso?timezone=UTC-04:00"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="sasa"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
             <property name="hibernate.show_sql" value="true"/>
+            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
         </properties>
     </persistence-unit>
 
